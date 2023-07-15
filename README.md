@@ -1,1 +1,1 @@
-A readme for the python projects
+This repository is all about the python projects

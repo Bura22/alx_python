@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+
+import random
+
 number = random.randint(-2147483648, 2147483647)
 
 if number < 0:

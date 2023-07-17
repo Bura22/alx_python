@@ -8,7 +8,6 @@ else:
     new = number
     lastDigit = new % 10
 
-print(number, lastDigit)
 if lastDigit > 5:
     print("Last digit of {} is {} and is greater than 5".format(number, lastDigit))
 else:

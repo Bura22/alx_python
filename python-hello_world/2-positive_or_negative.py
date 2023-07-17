@@ -2,7 +2,7 @@
 
 import random
 
-number = random.randint(-2147483648, 2147483647)
+number = random.randint(-100, 100)
 
 if number < 0:
     print(number, "is negative")

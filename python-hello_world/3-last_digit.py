@@ -1,12 +1,10 @@
-import random
-
 number = random.randint(-10000, 10000)
-new = 1
 
 if number < 0:
     new = number * -1
     lastDigit = new % 10
 else:
+    new = number
     lastDigit = new % 10
 
 print(number, lastDigit)

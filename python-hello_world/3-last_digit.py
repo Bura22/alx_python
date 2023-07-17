@@ -3,7 +3,7 @@ number = random.randint(-10000, 10000)
 
 if number < 0:
     new = number * -1
-    lastDigit = new % 10
+    lastDigit = -1 * ( new % 10)
 else:
     new = number
     lastDigit = new % 10

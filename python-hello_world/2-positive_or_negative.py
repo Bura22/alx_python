@@ -3,10 +3,11 @@
 import random
 
 number = random.randint(-100, 100)
+num = number - 10//2
 
-if number < 0:
-    print(number, "is negative")
+if num < 0:
+    print(num, "is negative")
 elif number > 0:
-    print(number, "is positive")
+    print(num, "is positive")
 else:
-    print(number, "is zero")
+    print(num, "is zero")

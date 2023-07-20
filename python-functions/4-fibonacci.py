@@ -3,7 +3,7 @@
 def fibonacci_sequence(n):
     a = 0
     b = 1
-    series =[]
+    series = []
     if n == 1:
         series.append(a)
     if n >= 2:

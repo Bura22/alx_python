@@ -5,11 +5,5 @@ def validate_password(password):
             return True
         return False
 
-password  = input("Enter password: ")
-checked = validate_password(password)
 
-if checked == True:
-      print("You can use this string as a password")
-else:
-      print("A string didn't match the requirement to be a password")
 

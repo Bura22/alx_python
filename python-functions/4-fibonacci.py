@@ -13,3 +13,5 @@ def fibonacci_sequence(n):
         b = allTotal
         n -=1
     return series
+
+print(fibonacci_sequence(3))

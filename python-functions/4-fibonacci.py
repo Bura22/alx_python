@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
 
 def fibonacci_sequence(n):
-    a, b = 0, 1
-    c = 0
-    for i in range(0, n):
-        print(c, end=" ")
+    a = 0
+    b = 1
+    series =[]
+    series.append(a)
+    series.append(b)
+    while (n > 0):
+        allTotal = a + b
+        series.append(allTotal)
         a = b
-        b = c
-        c = a + b
-number  = int(input("Enter number: "))
-fibonacci_sequence(number)
+        b = allTotal
+        n -=1
+    return series
+print(fibonacci_sequence(5))

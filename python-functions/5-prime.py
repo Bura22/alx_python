@@ -5,11 +5,12 @@ def is_prime(number):
             return False
     elif number < 0:
             return False
-    for i in range(2, number):
+    else:
+        for i in range(2, number):
             
-        if number % i == 0:
-            return False
-            break
+                if number % i == 0:
+                        return False
+                        break
     return  True
 
 

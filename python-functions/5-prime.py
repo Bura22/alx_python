@@ -7,6 +7,3 @@ def is_prime(number):
             break
 
     return  True
-
-number  = int(input("Enter number: "))
-print(is_prime(number))

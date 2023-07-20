@@ -6,7 +6,7 @@ def fibonacci_sequence(n):
     series =[]
     series.append(a)
     series.append(b)
-    while (n > 0):
+    while (n >= 2):
         allTotal = a + b
         series.append(allTotal)
         a = b
